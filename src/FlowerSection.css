@@ -3,3 +3,13 @@
   height: 22vw;
   object-fit: cover;
 }
+
+.Button {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.Card {
+  border: 1px solid black;
+  box-shadow: 5px 10px 10px rgba(122, 123, 125, 0.144);
+}

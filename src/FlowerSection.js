@@ -15,22 +15,20 @@ export default function FlowerSection(){
 <Container>
   <Row>
 
-<Col sm={6}>
-<Card style={{ width: '18rem' }}>
+<Col sm={4}>
+<Card style={{ width: '18rem' }} className="Card">
   <Card.Img variant="top" src={Roses} alt="Roses" className="Roses" />
   <Card.Body>
-    <Card.Title>Bath of Roses</Card.Title>
-    <Button variant="primary">Colour Choice</Button>
+    <Button variant="primary" className="Button">Bath of Roses</Button>
   </Card.Body>
 </Card>
 </Col>
 
-<Col sm={6}>
-<Card style={{ width: '18rem' }}>
+<Col sm={4}>
+<Card style={{ width: '18rem' }} className="Card">
   <Card.Img variant="top" src={Sunflower} alt="Sunflower" className="Sunflower" />
   <Card.Body>
-    <Card.Title>Sunny Sunflower</Card.Title>
-    <Button variant="primary">Colour Choice</Button>
+    <Button variant="primary" className="Button">Sunny Sunflower</Button>
   </Card.Body>
 </Card>
 </Col>
