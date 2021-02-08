@@ -1,6 +1,7 @@
 import React from "react";
 import Roses from "./Images/Roses.jpeg";
 import Sunflower from "./Images/Sunflower.jpeg";
+import Frangipani from "./Images/Frangipani.jpeg";
 import 'bootstrap/dist/css/bootstrap.css';
 import Card from "react-bootstrap/Card";
 import Button from 'react-bootstrap/Button';
@@ -32,6 +33,16 @@ export default function FlowerSection(){
   </Card.Body>
 </Card>
 </Col>
+
+<Col sm={4}>
+<Card style={{ width: '18rem' }} className="Card">
+  <Card.Img variant="top" src={Frangipani} alt="Frangipani" className="Frangipani" />
+  <Card.Body>
+    <Button variant="primary" className="Button">Funky Frangipani</Button>
+  </Card.Body>
+</Card>
+</Col>
+
 </Row>
 </Container>
 
