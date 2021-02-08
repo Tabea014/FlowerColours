@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="git-link">
       <span>
         Created by <a href="https://www.linkedin.com/in/tabea-schuchardt/" target="_blank"> Tabea Schuchardt </a> - view on
-        <a href="/" target="_blank"> Github </a>
+        <a href="https://github.com/Tabea014/FlowerColours" target="_blank"> Github </a>
       </span>
     </div>
   );
