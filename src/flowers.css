@@ -13,6 +13,7 @@ h1 {
   font-family: "Playfair Display", serif;
   font-weight: 800;
   padding: 40px auto;
+  color: rgb(255, 244, 244);
 }
 
 h1 {
@@ -25,6 +26,11 @@ h2 {
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: rgb(98, 181, 219);
+}
+
+hr {
+  color: white;
 }
 
 p {
