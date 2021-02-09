@@ -22,10 +22,9 @@ export default function Flowers(){
 <Card style={{ width: '18rem' }}>
   <ListGroup variant="flush" className="row justify-content-center ">
     <ListGroup.Item action variant="warning">Jump into the colourful world of flowers!</ListGroup.Item>
-    <ListGroup.Item action variant="light">Explore colour schemes inspired by the most beautiful flowers.</ListGroup.Item>
-    <ListGroup.Item action variant="warning">Have a look for the flower that inspires you.</ListGroup.Item>
-    <ListGroup.Item action variant="light">Pick up the code from the Flower Colours scheme.</ListGroup.Item>
-    <ListGroup.Item action variant="warning">Get started with your project.</ListGroup.Item>
+    <ListGroup.Item action variant="light">Have a look for the flower that inspires you.</ListGroup.Item>
+    <ListGroup.Item action variant="warning">Pick up the code from the Flower Colours scheme.</ListGroup.Item>
+    <ListGroup.Item action variant="light">Get started with your project.</ListGroup.Item>
   </ListGroup>
 </Card>
 </Col>
