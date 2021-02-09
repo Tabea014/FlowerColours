@@ -49,5 +49,3 @@ export default function FlowerSection(){
 
     );
 }
-
-//use cards for the flowers and than link to flowerscheme

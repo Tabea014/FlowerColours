@@ -1,13 +1,8 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  width: 1500px;
-  height: 850px;
-  padding: 30px 50px;
-  border: 3px solid;
-  border-radius: 5px;
-  box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.1);
-  margin: 30px auto;
+  width: 1600px;
+  height: 1040px;
   text-align: center;
   display: block;
   background: #c9ccd3;
@@ -17,11 +12,12 @@
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: 800;
+  padding: 40px auto;
 }
 
 h1 {
   font-size: 48px;
-  margin-bottom: 20px;
+  margin-bottom: -80px;
 }
 
 h2 {
@@ -33,5 +29,16 @@ h2 {
 
 p {
   font-family: "Work Sans", sans-serif;
-  font-size: 22px;
+}
+
+.LoofandTimmy {
+  position: relative;
+  margin-left: 980px;
+  margin-top: 20px;
+  border: 2px solid black;
+  box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.1);
+}
+
+.justify-content-center {
+  margin-top: -90px;
 }
